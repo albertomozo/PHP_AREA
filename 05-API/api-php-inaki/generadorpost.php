@@ -1,0 +1,1 @@
+INSERT INTO `posts` (`id`, `title`, `estatus`, `content`, `user_id`) VALUES (NULL, 'Mi primer pòsy', 'published', 'Bla bla ', '1');

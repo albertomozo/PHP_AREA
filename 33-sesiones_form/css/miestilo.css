@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    
+#container{
+    background-color: aqua;
+}
+/* cabecera */
+#cabecera {
+    background-color: black;
+    color : white;
+}
+
+/* menu de navegacion - pasos */
+#menu {
+    background-color: blanchedalmond;
+}
+#menu ul li {
+    display : inline;
+}
+#menu .active {
+    background-color: chartreuse;
+}

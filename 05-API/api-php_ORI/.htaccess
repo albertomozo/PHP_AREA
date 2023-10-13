@@ -1,0 +1,12 @@
+
+RewriteEngine On
+# redireccionar paginas de error
+ErrorDocument 404 /php/05-API/api-php/pagina404.html
+ErrorDocument 400 /php/05-API/api-php/400.html
+# No permitir lista el directorio
+#Options -Indexes 
+RewriteRule ^post/([0-9]+)$ post.php?id=$1
+
+
+
+
